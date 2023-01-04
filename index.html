@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Cookie survey</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap'); </style>
+    </head>
+    <body>
+        <div class="c1">
+        <h1><span class="c1s">Cookie Survey 🍪</span></h1>
+        </div>
+        <div class="c2">
+            <h2> Answer the questions below for a free cookie! </h2>
+            <div class="c2rows">
+                <img src="cookies.jpg" class="card_img">
+                <div class="c2cols" class="card_text_right">
+                <form>
+                <p> What types of cookies do you like? </p>
+                <input type="checkbox" id="cookie_t1" name="cookie_t1" value="chocolate">
+                <label for="cookie_t1"> Chocolate Chip </label> <br>
+                <input type="checkbox" id="cookie_t2" name="cookie_t2" value="oatmeal">
+                <label for="cookie_t2"> Oatmeal </label> <br>
+                <input type="checkbox" id="cookie_t3" name="cookie_t3" value="peanut_butter">
+                <label for="cookie_t3"> Peanut Butter </label> <br>
+                <input type="checkbox" id="cookie_t4" name="cookie_t4" value="gingerbread">
+                <label for="cookie_t4"> Gingerbread </label> <br>
+                </form>
+                </div>
+            </div>
+            <div class="c2rows">
+                <div class="c2cols" class="card_text_left">
+                <form>
+                    <p> Describe your perfect cookie! </p> <br>
+                    <input type = "text" id="textboxid">
+                </form>
+                </div>
+                <img src="describe.jpg" class="card_img">
+            </div>
+            <div class="c2rows">
+                <img src="milk.jpg" class="card_img">
+                <div class="c2cols" class="card_text_right">
+                <form>
+                    <p> How much milk would you like with your cookie? </p> <br>
+                    <label for="vol">Glasses of milk: (0 to 5)</label>
+                    <p id="range_input_p">  </p>
+                    <input type="range" id="vol" name="vol" min="0" max="5">
+                </form>
+                </div>
+            </div>
+            <div class="c2rows">
+                <form>
+            <p> Your information: </p>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit"><br>
+            </form>
+        </div>
+        </div> 
+    </body>
+</html>
